@@ -24,7 +24,7 @@
     "speech_audio_coreasoning": "<Speech><SpeechHere></Speech> Use your strong reasoning skills to answer the speaker's question in detail based on the background sound.",
     "keywords": "<Speech><SpeechHere></Speech> Give me only three keywords of the text.",
     "speaker_diarization_asr": "<Speech><SpeechHere></Speech> Please recognize each speaker and transcribe their speech content.",
-    "dac": "<Speech><SpeechHere></Speech> What events can you detect in the sound? Please list each event's start and end timestamps along with a caption, formatted as 'start - end seconds, event description'.",
-    "tag":"<Speech><SpeechHere></Speech> Can you identify the time interval of start and end timestamps in the audio that corresponds to the query '<>'?",
-    "tss":"<Speech><SpeechHere></Speech> Summarize the speech content in the audio, identifying key points and providing time-based summaries in the format 'start - end seconds, speech summary'."
+    "dac": "<Speech><SpeechHere></Speech> What events can you detect in the sound with the start and end timestamps?",
+    "tag":"<Speech><SpeechHere></Speech> What are the start and end times of audio matching '<query_placeholder>'?",
+    "tss":"<Speech><SpeechHere></Speech> Listen to the speech and provide a summary of speech content with start and end timestamps."
 }

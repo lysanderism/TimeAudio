@@ -136,27 +136,27 @@
         "<Speech><SpeechHere></Speech> Create a timeline of sound events, marking the exact temporal segments where each sound occurs ."
     ],
     "dac":[
-        "What events can you detect in the sound? Please list each event's start and end timestamps along with a caption, formatted as 'start - end seconds, event description'.",
-        "Could you identify and describe each sound event in the sound? Provide the corresponding start and end timestamps in seconds.",
-        "Which sound events occur in this sound, and during what time intervals? Clearly specify each event using the 'start - end seconds event descriptions' format.",
-        "Can you list all sound events found in this sound, including their start and end timestamps along with sound descriptions?",
-        "What sounds can be heard in the audio? Report their start and end times along with sound descriptions.",
-        "What are the sound events present in the sound? Pinpoint their respective time intervals using the 'start - end seconds' format, and briefly describe each event."
+        "What events can you detect in the sound with the start and end timestamps?",
+        "Can you identify sound events and their start and end timestamps? ",
+        "Which sound events occur, and what are their time intervals and descriptions?",
+        "List all sound events, including their start and end times and descriptions.",
+        "What sounds are heard? Provide their start and end times with descriptions.",
+        "What are the sound events? Provide their time intervals and brief descriptions."
     ],
     "tag":[
-        "Can you identify the time interval of start and end timestamps in the audio that corresponds to the query '<query_placeholder>'?",
-        "What are the exact start and end times in the audio matching the query '<query_placeholder>'?",
-        "Could you locate where the query '<query_placeholder>' occurs in the audio and provide its start and end timestamps in seconds?",
-        "At what timestamps (start and end in seconds) does the audio content matching '<query_placeholder>' appear?",
-        "During which time interval (start and end in seconds) does the query '<query_placeholder>' appear within the audio?",
-        "Between which timestamps (start and end in seconds) does the audio segment related to the query '<query_placeholder>' occur?"
+        "Can you identify the start and end timestamps in the audio matching '<query_placeholder>'?",
+        "What are the start and end times of audio matching '<query_placeholder>'?",
+        "Where does the query '<query_placeholder>' occur in the audio? Provide start and end timestamps.",
+        "At what start and end timestamps does the audio matching '<query_placeholder>' appear?",
+        "What is the time interval (start and end) for the query '<query_placeholder>' in the audio?",
+        "Between which timestamps does the audio related to '<query_placeholder>' occur?"
     ],
     "tss":[
-        "Summarize the speech content in the given audio, providing a concise overview of the main ideas. The summary should include the key points discussed within specific time intervals. A specific example is: '0.0 - 5.0 seconds, Introduction to the topic of climate change and its global impact'.",
-        "Listen to the audio and summarize the main speech points at different time intervals. Output the summarized content as 'start - end seconds, brief summary of speech content'.",
-        "Analyze the speech in the given audio and generate a summary for each segment of speech with a start and end timestamp. The format should be 'start - end seconds, summarized speech content'.",
-        "Provide a summary of the key points from the speech at specific time intervals in the audio. Each summary should be concise, and the time intervals should be included in the format 'start - end seconds'.",
-        "Break down the speech in the audio into different time segments and summarize each segment with a start and end time. The summary should focus on the core message for each segment.",
-        "Summarize the speech content in the audio, identifying key points and providing time-based summaries in the format 'start - end seconds, speech summary'."
+        "Listen to the speech and provide a summary of speech content with start and end timestamps.",
+        "Can you summarize the speech content and key points at specific time intervals in the start and end timestamps?",
+        "Could you analyze the speech and generate a summary with start and end timestamps for each segment?",
+        "Provide a concise summary of speech points at specific time intervals in the speech.",
+        "Can you break down the speech into time segments and summarize the core message of each?",
+        "Can you provide the speech summary with key points at specific time intervals?"
     ]
 }

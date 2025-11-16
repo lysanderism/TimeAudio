@@ -397,7 +397,6 @@ class Runner:
         filtered_state_dict = {}
         if self.config.config.model.tune_added_tokens == "stage2":
             for k, v in state_dict.items():
-                print(k)
                 if 'lora' in k or 'rotary_emb' in k:
                     filtered_state_dict[k] = v
                     # continue

@@ -1,0 +1,13 @@
+torch==2.6.0
+torchaudio==2.6.0
+peft==0.16.0
+deepspeed==0.16.7
+soundfile 
+librosa
+transformers==4.47.0
+sentencepiece==0.2.0
+accelerate==1.6.0
+gradio
+omegaconf
+tensorboardX
+git remote add origin git@github.com:lysanderism/TimeAudio.git

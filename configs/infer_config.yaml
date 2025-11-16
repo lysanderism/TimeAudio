@@ -1,0 +1,83 @@
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+model:
+  # paths
+  llama_path: "pretrained_model/vicuna-7b-v1.5"
+  whisper_path: "pretrained_model/whisper-large-v2"
+  beats_path: "pretrained_model/BEATs_iter3_plus_AS2M_finetuned_on_AS2M_cpt2.pt"
+
+  ckpt: "pretrained_model/timeaudio.pth" #pretrained_model/timeaudio.pth
+
+  freeze_whisper: True
+  freeze_beats: True
+
+  # window-level Q-Former
+  use_speech_Qformer: True
+  freeze_speech_QFormer: False
+  window_level_Qformer: True
+  num_speech_query_token: 1
+  second_per_window: 0.333333
+  second_stride: 0.333333
+
+  speech_llama_proj_model: ""
+  freeze_speech_llama_proj: False
+
+  # LoRA
+  lora: True
+  lora_rank: 8
+  lora_alpha: 32
+  lora_dropout: 0.1
+
+  multi_prompt: True
+  prompt_template: "USER: {}\nASSISTANT:"
+  prompt_path: "prompts/train_prompt.json"
+  test_prompt_path: "prompts/test_prompt.json"
+  max_txt_len: 360
+  end_sym: "</s>"
+  added_time_token: "v3"
+  tune_added_tokens: "infer"
+  use_token_merge: False
+
+generate:
+  max_new_tokens: 200
+  num_beams: 4
+  do_sample: False
+  min_length: 1
+  temperature: 1.0
+  top_p: 0.9
+  repetition_penalty: 1.0
+  length_penalty: 1.0
+
+datasets:
+  test_ann_path: data/test/xx.json
+  test_save_path: data/test/xx.json
+  format_tokens: "v3"
+  max_len: 180
+
+  whisper_path: "pretrained_model/whisper-large-v2"
+
+run:
+  # log & settings
+  seed: 42
+  output_dir: "output"
+  evaluate: True # if True, only evaluate model on test data
+
+  log_freq: 5
+  batch_size_eval: 1
+  num_workers: 8
+
+  device: "cuda"
+  use_distributed: True
+  amp: True
+  world_size: 8
+  dist_url: "env://"

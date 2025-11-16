@@ -70,7 +70,7 @@ ppython3 cli_inference.py --cfg-path configs/infer_config.yaml
 
 ### 🎯 Data Examples
 
-| Task                 | `AvgDuration`       | `Prompt`                                 | 
+| Task                 | `Avg_Duration`       | `Prompt`                                 | 
 |:---------------------|:-------------------|:----------------------------------------------|
 | Dense_Audio_Captioning (DAC)  | `11.3s`             | `"What are the sound events? Provide their time intervals and brief descriptions."` |
 | Temporal_Audio_Grounding (TAG)  | `9.8s`           | `"What are the start and end times of audio matching 'dogs barking'?",` |

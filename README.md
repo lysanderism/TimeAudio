@@ -1,14 +1,14 @@
 # 🕥 TimeAudio: Bridging Temporal Gaps in Large Audio-Language Models
 
 
-[![arXiv](https://img.shields.io/badge/arXiv-1.1-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/2511.11039.)
+[![arXiv](https://img.shields.io/badge/arXiv-1.1-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/2511.11039)
 [![Project Page](https://img.shields.io/badge/GitHub.io-Project-blue?logo=Github&style=flat-square)](https://github.com/lysanderism/TimeAudio)
 [![🤗 Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/lysanderism/TimeAudio)
 [![🤗 Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DataSet-blue)](https://huggingface.co/datasets/lysanderism/FTAR)
 
 ---
 
-**This is the official repository for "[TimeAudio: Bridging Temporal Gaps in Large Audio-Language Models](https://arxiv.org/abs/2511.11039.)".**
+**This is the official repository for "[TimeAudio: Bridging Temporal Gaps in Large Audio-Language Models](https://arxiv.org/abs/2511.11039)".**
 
 
 ## ✨ Abstract

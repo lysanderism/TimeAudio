@@ -1,14 +1,14 @@
 # 🕥 TimeAudio: Bridging Temporal Gaps in Large Audio-Language Models
 
 
-[![arXiv](https://img.shields.io/badge/arXiv-1.1-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/.)
+[![arXiv](https://img.shields.io/badge/arXiv-1.1-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/2511.11039.)
 [![Project Page](https://img.shields.io/badge/GitHub.io-Project-blue?logo=Github&style=flat-square)](https://github.com/lysanderism/TimeAudio)
 [![🤗 Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/lysanderism/TimeAudio)
 [![🤗 Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DataSet-blue)](https://huggingface.co/datasets/lysanderism/FTAR)
 
 ---
 
-**This is the official repository for "[TimeAudio: Bridging Temporal Gaps in Large Audio-Language Models](https://arxiv.org/pdf/.)".**
+**This is the official repository for "[TimeAudio: Bridging Temporal Gaps in Large Audio-Language Models](https://arxiv.org/abs/2511.11039.)".**
 
 
 ## ✨ Abstract
@@ -100,9 +100,9 @@ If you find TimeAudio useful, please cite our paper:
 @article{,
   title={TimeAudio: Bridging Temporal Gaps in Large Audio-Language Models},
   author={Hualei Wang, Yiming Li, Shuo Ma, Hong Liu, Xiangdong Wang},
-  journal={arXiv preprint arXiv:},
+  journal={arXiv preprint arXiv:2511.11039},
   year={2025},
-  url={https://arxiv.org/abs/}
+  url={https://arxiv.org/abs/2511.11039}
 }
 ```
 
